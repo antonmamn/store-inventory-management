@@ -10,7 +10,6 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 
 @RestControllerAdvice
 public class ErrorHandler extends ResponseEntityExceptionHandler {
-
     @ExceptionHandler(Exception.class)
     protected ResponseEntity<Object> handleConflict(
             Exception ex, WebRequest request) {

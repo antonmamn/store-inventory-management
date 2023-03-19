@@ -1,6 +1,6 @@
 package management.inventory.service;
 
-import jakarta.transaction.Transactional;
+
 import management.inventory.model.Inventory;
 import management.inventory.model.InventoryStatus;
 import management.inventory.repository.InventoryRepository;
@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 
